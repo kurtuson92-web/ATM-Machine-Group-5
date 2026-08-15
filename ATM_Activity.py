@@ -1,10 +1,10 @@
-
+#variable
 CORRECT_PIN = "1234"
 
-
+#userinput var
 user_input = input("Enter your 4-digit PIN: ")
 
-# Check if the input matches
+#checks if matches the pin
 if user_input == CORRECT_PIN:
     print("Access Granted!")
 else:
